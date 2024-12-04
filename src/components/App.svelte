@@ -4,7 +4,7 @@
 
 <main>
   <h1>Svelte template</h1>
-
+HELLO
   <p>Write your HTML here</p>
 </main>
 
