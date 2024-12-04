@@ -132,7 +132,7 @@
         .text("Housing Value ($)");
 
     // Load data
-    d3.csv('/housing.csv').then(data => {
+    d3.csv('special-potato/housing.csv').then(data => {
       
         const states = data.columns.slice(1);
         const allStateData = states.map(state => {
