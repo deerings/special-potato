@@ -12,7 +12,7 @@
 
   
 	onMount(async () => {
-	  data = await d3.csv('/median_prices.csv');
+	  data = await d3.csv('./median_prices.csv');
 	  geoJson = await d3.json('/us-states.json');
 	  dateRange = data.columns.slice(8); // Extract the date range
 	  selectedDate = dateRange[0]; // Default to the first date
